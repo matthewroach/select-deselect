@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>Select All Deselect All</title>
+
+</head>
+<body>
+
+
+	<div id="people">
+		<div>
+			<input type="checkbox" id="select_all" name="select_all" value="1" />
+			<label for="select_all">Select All</label>
+		</div>
+
+		<div>
+			<input type="checkbox" id="deselect_all" name="select_all" value="0" />
+			<label for="deselect_all">Deselect All</label>
+		</div>
+	</div>
+
+
+	<div id="people-choice">
+
+		<input type="checkbox" id="people_1" name="people" value="1" >
+		<label for="people_1">Marty McFly</label>
+
+		<input type="checkbox" id="people_2" name="people" value="2" >
+		<label for="people_2">Biff</label>
+
+		<input type="checkbox" id="people_3" name="people" value="3" >
+		<label for="people_3">Doc Brown</label>
+
+		<input type="checkbox" id="people_4" name="people" value="4" >
+		<label for="people_4">Jennifer</label>
+
+	</div>
+
+
+	<hr />
+
+
+	<div id="languages">
+		<div>
+			<input type="checkbox" id="language_select" name="language_select" value="1" />
+			<label for="language_select">Select All</label>
+		</div>
+
+		<div>
+			<input type="checkbox" id="languages_deselect" name="languages_deselect" value="0" />
+			<label for="languages_deselect">Deselect All</label>
+		</div>
+	</div>
+
+
+
+
+	<div id="languages-selections">
+
+		<input type="checkbox" id="languages_1" name="languages" value="1" >
+		<label for="languages_1">HTML</label>
+
+		<input type="checkbox" id="languages_2" name="languages" value="2" >
+		<label for="languages_2">CSS</label>
+
+		<input type="checkbox" id="languages_3" name="languages" value="3" >
+		<label for="languages_3">JavaScript</label>
+
+	</div>
+
+
+	<script type='text/javascript' src='src/selectdeselect.js'></script>
+	<script>
+		var demoSelect = new SelectDeselect();
+		demoSelect.init();
+	</script>
+
+
+</body>
+</html>

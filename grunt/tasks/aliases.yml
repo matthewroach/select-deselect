@@ -1,0 +1,10 @@
+
+
+default:
+  - 'connect'
+  - 'saucelabs-jasmine'
+
+
+test:
+  - 'connect'
+  - 'saucelabs-jasmine'

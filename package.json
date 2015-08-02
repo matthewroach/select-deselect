@@ -1,0 +1,13 @@
+{
+  "name": "SelectDeselct",
+  "description": "A small simple module for select all / deselect all",
+  "version": "0.0.1",
+  "repository": "https://github.com/matthewroach/select-deselect",
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-connect": "^0.10.1",
+    "grunt-saucelabs": "^8.6.1",
+    "load-grunt-config": "^0.13.0",
+    "load-grunt-tasks": "^0.6.0"
+  }
+}
